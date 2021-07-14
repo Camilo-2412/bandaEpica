@@ -1,0 +1,68 @@
+.bannerEpica {
+    background-image: url(../assets/img/Epica2.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+footer{
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+
+.bannerEpica {
+    background-image: url(../assets/img/Epica2.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+footer{
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+.abyss{
+  display: flex;
+}
+.abyss .letra{
+  padding-left: 50px;
+}
+.abyss .panel{
+ display: inherit;
+ flex-direction: column;
+}
+
+
+.parallax {
+  background-image: url('assets/img/gaia.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:500px;   
+}
+
+@media only screen and (max-device-width:320px){
+  .wrap{
+      height:200px;
+  }
+  .col-md-4{
+      margin:5% 0%;
+  }
+
+  .carousel-control-next , .carousel-control-prev {
+      display:none;
+  }
+}
+
+.contenedor2 {
+margin-top: 40px;
+display: flex;
+justify-content: center;
+
+
+}
+
