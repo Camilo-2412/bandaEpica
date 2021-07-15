@@ -74,17 +74,17 @@ const startSurvey = () => {
 
   songTimeWeb.innerHTML = "Duración de la canción: " + songTime;
 
-  localStorage.setItem("ok", true);
+  
 };
 
 const validateStorage = () => {
-  if (localStorage.getItem("ok")) {
-    nameUserWeb.innerHTML = "Nombre: " + localStorage.getItem("nameUserWeb");
-    albumWeb.innerHTML = "Nombre: " + localStorage.getItem("albumWeb");
-    yearSongWeb.innerHTML = "Nombre: " + localStorage.getItem("yearSongWeb");
+  if (localStorage.getItem("nameItem")) {
+    nameUserWeb.innerHTML = "Nombre del usuario: "  + localStorage.getItem("nameItem");
+    albumWeb.innerHTML = "Albúm: " + localStorage.getItem("albumItem");
+    yearSongWeb.innerHTML = "Año de la canción: " + localStorage.getItem("yearSongItem");
     nameComposerWeb.innerHTML =
-      "Nombre: " + localStorage.getItem("nameComposerWeb");
-    songTimeWeb.innerHTML = "Nombre: " + localStorage.getItem("songTimeWeb");
+    "Nombre del compositor: " + localStorage.getItem("nameComposerItem");
+    songTimeWeb.innerHTML = "Duración de la canción: " + localStorage.getItem("songTimeItem");
   }
 };
 
