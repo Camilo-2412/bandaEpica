@@ -48,7 +48,7 @@
     </nav>
 
     <div class="bannerEpica">
-      <h1>Epica</h1>
+      
     </div>
 
     <div class="container" style="padding: 2rem">
@@ -74,12 +74,22 @@
               src="https://www.youtube.com/watch?v=sTbk3SfUq9Q"
             >
             </iframe>
+            <!--- ACA VA TODO LO DEL PROMPT-->
+            <div id="centradorDeCosas">
+            <button id="btnQuiza" class="btn btn-dark" style=" padding: 1rem; ">Toma un Quiz de esta canción!</button>
+          </div>
+            <h4 id="nombreq"style="visibility: hidden; margin-top: 20px">Nombre: </h4>
+          <h4 id = "albumq" style="visibility: hidden;">Album: </h4>
+          <h4 id = "anoq" style="visibility: hidden;">Año: </h4>
+          <h4 id = "compositorq"style="visibility: hidden;">Compositor: </h4>
+          <h4 id = "duracionq"style="visibility: hidden;">Duración:</h4>
+          <!--- HASTA ACA VA TODO LO DEL PROMPT-->
           </p>
         </div>
-
+        
         <div class="letra">
-          <h5 style="text-align: left">Letra</h5>
-          <p id="abyss" style="font-weight: normal">
+          <h5 style="text-align: left; font-weight: bold;">Letra</h5>
+          <p id="abyssLetra" style="font-weight: normal; text-align: left;">
             Fill the void in me See life beyond the veil <br />
             Replace all thoughts from the abyss<br />
             With cosmic energy<br />
@@ -137,6 +147,7 @@
             To be free<br />
             Ah, ah<br />
           </p>
+          
         </div>
       </div>
     </div>
@@ -181,11 +192,12 @@
         </div>
       </div>
     </footer>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    
+    <script src="assets/js/scriptAbyss.js"></script>
   </body>
 </html>
