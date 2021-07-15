@@ -82,7 +82,7 @@ const validarStorageAño = () =>{
     if (localStorage.getItem('lblAño')) {
         lblAño.innerHTML ="Año: " + localStorage.getItem('lblAño');
     } else{
-        lblAño.innerHTML = 'entre aca';
+        lblAño.innerHTML = '';
     
     }
 }
